@@ -39,7 +39,7 @@ URL = environ.get('URL', '')
 
 # verify system vars
 IS_VERIFY = is_enabled('IS_VERIFY', True)
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1003185576174/'))
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1003185576174'))
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/how_to_download_channel/17")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "")

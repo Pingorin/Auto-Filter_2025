@@ -35,7 +35,7 @@ QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/901c940e1e0f64e0fe6ac.j
 
 #this vars is for when heroku or koyeb acc get banned, then change this vars as your file to link bot name
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1003194620627'))
-URL = environ.get('URL', '')
+URL = environ.get('URL', 'https://auto-filter-2025.onrender.com')
 
 # verify system vars
 IS_VERIFY = is_enabled('IS_VERIFY', True)
